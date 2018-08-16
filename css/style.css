@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em 3em;
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.video-wrap {
+  position: relative;
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #333;
+  transform: translateY(50%);
+  font: 0/0 a;
+  color: transparent;
+}
+
+.slick-prev {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-bottom-color: #fff;
+  transform: translateX(2px) rotate(135);
+}
+
+.slick-prev:before {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
